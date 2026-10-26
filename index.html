@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0714">
+  <title>My Personal World </title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0714;
+      color: white;
+      min-height: 100vh;
+      padding: 35px 16px;
+    }
+    main {
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+    }
+    header {
+      text-align: center;
+      padding: 35px 15px;
+      background: linear-gradient(145deg,#25113e,#100b1c);
+      border: 1px solid #503078;
+      border-radius: 24px;
+    }
+    .avatar {
+      width: 95px;
+      height: 95px;
+      margin: auto auto 18px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: #35204f;
+      border: 2px solid #b77aff;
+      font-size: 36px;
+    }
+    h1 { margin: 10px 0; }
+    header p { color: #c9b5e8; line-height: 1.6; }
+    h2 { font-size: 19px; margin-top: 28px; }
+    .links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .links a {
+      text-decoration: none;
+      color: white;
+      background: #191323;
+      border: 1px solid #342343;
+      padding: 18px 12px;
+      border-radius: 14px;
+      transition: .2s;
+    }
+    .links a:hover {
+      background: #302044;
+      border-color: #b77aff;
+    }
+    .links span {
+      display: block;
+      color: #c9b5e8;
+      font-size: 12px;
+      margin-top: 7px;
+    }
+    .about {
+      margin-top: 22px;
+      padding: 20px;
+      border-radius: 16px;
+      background: #15101e;
+      color: #cfc6dc;
+      line-height: 1.7;
+    }
+    footer {
+      text-align: center;
+      margin-top: 28px;
+      font-size: 12px;
+      color: #8e829f;
+    }
+    @media(max-width: 360px) {
+      .links { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="avatar">👤</div>
+      <h1>MA S UD</h1>
+      <p>Student | Artist</p>
+      <p>Welcome to my digital world.</p>
+    </header>
+
+    <h2>Connect With Me</h2>
+    <section class="links">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook<span>Visit my profile ↗</span></a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram<span>Photos & updates ↗</span></a>
+      <a href="#" id="whatsapp">WhatsApp<span>Message me ↗</span></a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn<span>Professional profile ↗</span></a>
+      <a href="https://signal.me/" target="_blank" rel="noopener noreferrer">Signal<span>Connect with me ↗</span></a>
+      <a href="mailto:YOUR_EMAIL@gmail.com">Gmail<span>Send me an email ↗</span></a>
+    </section>
+
+    <section class="about">
+      <h2>About Me</h2>
+      Hello! I am a student,Welcome to my
+      personal website.
+    </section>
+
+    <footer>© 2026 Abrar Masud · Personal Website</footer>
+  </main>
+</body>
+</html>
